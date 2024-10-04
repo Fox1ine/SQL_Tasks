@@ -1,3 +1,4 @@
+
 --Task 2--
 --Output the 10 actors whose films have rented the most, sorted in descending order.--
 
@@ -18,6 +19,4 @@ inner join actor a
 on rt.actorId = a.actor_id 
 order by rt.rental_count desc
 limit 10
-	
-
 	
